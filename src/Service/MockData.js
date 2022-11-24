@@ -1,9 +1,23 @@
 export const TaskData = [
   {
-    company: "Twitter Inc",
-    ticker: "TWTR",
-    stockPrice: "22.76 USD",
-    timeElapsed: "5 sec ago",
+    id: 2289229,
+    name: "Pagar recibo de luz",
+    category: ["Hogar"],
+    priority: null,
+    isRepetitive: false,
+    isComplete: true,
+    createdDate: "09-10-2022",
+    completedDate: "22-10-2022"
+  },
+  {
+    id: 2289229,
+    name: "Pagar recibo de luz",
+    category: ["Hogar"],
+    priority: null,
+    isRepetitive: true,
+    isComplete: true,
+    createdDate: "10-10-2022",
+    completedDate: "10-10-2022"
   },
   {
     company: "Square Inc",
@@ -39,7 +53,8 @@ export const TaskData = [
 
 export const AccountData = {
   personalData: {
-    name: "name",
-    LastName: "LastName"
+    userName: "vam1832",
+    uriProfilePhoto: "",
+    birthdate: "",
   }
 }
